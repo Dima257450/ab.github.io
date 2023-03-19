@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="header">
+        <h1><b>Войдите в аккаунт</b></h1>
+    </div>
+        <form action="">
+            <input class = "login" type="text" placeholder="Login" name="login">
+            <div class="ABC">
+                <input class = "pass" type="password" placeholder="Password" name="password">
+            </div>
+            <a href="index.html">
+                <button class = "login1"type="button">Login</button>
+            </a>
+            
+        </form>
+</body>
+<script>
+    let button = document.querySelector('button');
+    button.addEventListener('click',() => {
+        let inputs = document.querySelectorAll('input');
+        let input_values = [];
+        for (let i = 0; i < inputs.length; i++){
+            input_values.push(inputs[i].value);
+        }
+        console.log(input_values)
+    });
+</script>
+</html>

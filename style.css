@@ -1,0 +1,55 @@
+body{
+    background-image: url(images/фон.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+h1{
+    position: absolute;
+
+    left: 20px;
+    top: -50px;
+    font-family: 'Inter';
+    font-size: 94px;
+    color: #28D6B6;
+}    
+.Login a{   
+    color: #28D6B6;
+}
+.Login{
+    position: absolute;
+
+    left: 2vh;
+    top: 150px;
+    font-family: 'Inter';
+    font-size: 14px;
+    color: #28D6B6;
+    border-radius: 40%;
+    border: 2px solid #434353;
+    background-color: #2b302e;
+}
+.container{ /* блок для выравнивая содержимого */
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.pacman{
+    position: relative;
+    border-radius: 20%;
+    margin-left: 42vh;
+    border: 2px solid #d8db04;
+    width: 250px;
+    height: 200px;
+    margin-top: 300px;
+    background-color: rgb(48, 45, 45);
+}
+.Mario{
+    position: absolute;
+    border-radius: 20%;
+    border: 2px solid #76cfcf;
+    width: 250px;
+    height: 200px;
+    margin-top: -208px;
+    margin-left: 82vh;
+}   
